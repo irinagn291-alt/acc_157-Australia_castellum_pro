@@ -1,0 +1,13 @@
+Castellum is a personal water well for people who add a workout and then drink later as if the extra never existed. Weight and an activity band write the day's mark. A pour fills the sweat sump first, and only overflow crests the weir into the body bowl.
+
+• Four onboarding plates: The cistern house, Crest the weir, Crest-runs stay, and Your day mark
+• Still, Active, and Intense write a sweat sump of 0 ml, 350 ml, or 700 ml
+• Skip writes a 70 kg Still mark
+• Well shows Fill the sump and Crest the weir, with Sump left, Bowl, and Mark
+• Tap the well or Pour 250 ml. An open sump stays Hatch ajar
+• Sweat sump opens Sweat-sump weir
+• Crests lists Days the weir overflowed as crest-runs, labelled Crested or Mark reached
+• Mark lets you Write today's mark, Re-run onboarding, Reset all data, and Contact Castellum
+• The mark is weight and band, never a typed goal
+
+Pours, crest-runs, and the mark stay on this device. This is a personal log, not medical advice.

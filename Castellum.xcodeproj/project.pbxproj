@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045434E40D83EB35060D4FF5 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9E9335845BBD9E31DD907 /* APIConfig.swift */; };
+		0980036EA225F27DD7D5BA2F /* WeirFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7CF909504F55197B3B966 /* WeirFoldTests.swift */; };
+		0B6796F7E04A78E94A121829 /* WeirFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600421EC44756792B6EE949 /* WeirFold.swift */; };
+		11C627A026B9383796062DF3 /* ActivityBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A50E4C562546A13C037E7 /* ActivityBand.swift */; };
+		15F9E9065A53AF0324CC30F4 /* WeirCistern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62FA246DB75F4F2FD062C16 /* WeirCistern.swift */; };
+		1B48EF2C3056C87F0600C0B7 /* ReviewHookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B02BDE3E6A06056B7794799 /* ReviewHookTests.swift */; };
+		208275D85D2249839242AB88 /* ScreenCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B80AD2F3820B71930F8F6 /* ScreenCatalog.swift */; };
+		25DA96A0E5C81D0423C41E4A /* DayMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7ED50D4608CF01CDE0BFB /* DayMarkTests.swift */; };
+		2D8634F668E9EB6F5030B886 /* CisternOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F579ECEA9A37C702BC24FB /* CisternOnboardingView.swift */; };
+		3E74F1AC016C4E4324950A25 /* ScreenShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5341EA9C1EF3240DB7B3A5 /* ScreenShotTests.swift */; };
+		452A9BA3509969BC3E1488F5 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9346AE85193E2654DC5375 /* DayKey.swift */; };
+		487515493495648AC3493E97 /* WellDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5920D1AA8340BCCE471708 /* WellDialView.swift */; };
+		4D398536E24766ACDA16CFF3 /* ReviewHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1B54C338D3E90F52FC758 /* ReviewHook.swift */; };
+		504340EF8161E16074A80F4A /* CastellumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308206A20F99D997C76EB14D /* CastellumTests.swift */; };
+		50450945AF9E80209A2463A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8124007B882FA287025D55 /* AppDelegate.swift */; };
+		61F3BE06AAEC0829D3DD61AD /* CrestRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19E6B24462DA436E9C30C8 /* CrestRun.swift */; };
+		66556A50C17A917AF370B0DD /* WeirLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36A4D5DDCCFCBBEADF0CB7 /* WeirLedger.swift */; };
+		72D2DAF420E1768DD9FCFFAC /* WeirHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D562673B7A16CE65122CD0 /* WeirHouseTests.swift */; };
+		78A1A4C58BFA29271FB5A69E /* CisternCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695767D623722B40B71B3DA /* CisternCalendar.swift */; };
+		82DD71DF4FBA8C5BD86B68B6 /* CastellumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB7616989E56E0E10F286CF /* CastellumApp.swift */; };
+		8C21A1EA390ED83C18613FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D58165B038A1179642529 /* Assets.xcassets */; };
+		8C9AB6996EC875DC4BDD6986 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB605288BF5ECA6271A5895 /* Alamofire */; };
+		90D3D17C30C9913D3049335D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F71EA85341424A29DA2AF /* ContentView.swift */; };
+		9336AF0D6831F44BE7C80583 /* SumpChamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751372C0C90FBA46DAD6CE0 /* SumpChamber.swift */; };
+		980D91832F6F2C1CB7B993BB /* WeirCisternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC6AF7EF87DD1DA304507 /* WeirCisternTests.swift */; };
+		9A5E29A021B9CE41703EF568 /* WeirSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228EB55BEC3383AFBDF0543 /* WeirSeed.swift */; };
+		9C23349C65DF622583EAA77E /* CisternInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8544C0A8559E82007DCB5 /* CisternInk.swift */; };
+		9F53B6177FF2BEAE9CE54F6F /* WeirHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755AEB9E3BC0676DC4A55AC /* WeirHouseView.swift */; };
+		A25C50B0A38DF9E72A26B329 /* WeirHopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DEBF560BD42F3D9871F502 /* WeirHopTests.swift */; };
+		AB448C4FFE0D1558714F04CE /* DayMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C3F236BB62B6814EA6EDA /* DayMark.swift */; };
+		B4690F8355B87B54620C92A5 /* WeirStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B641D805455BA29BEEAE5D /* WeirStore.swift */; };
+		B7B8952D1957997FEF451C35 /* WeirStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D41D939B9BF63637CEC9 /* WeirStoreTests.swift */; };
+		C3AA1198700A89D507F4A468 /* VesselWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EC29462E9A3B04AAC1A485 /* VesselWell.swift */; };
+		CC225D3F2DD2606811CC7A93 /* SweatSumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4691B3A2A840528E3D1B3AD /* SweatSumpView.swift */; };
+		CC6673D5F29F5538FA1DB389 /* WeirHop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2837FE73FF4102760EEEA5 /* WeirHop.swift */; };
+		D0EC3F5459E40DF423498E5D /* CisternSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B532830AED9D628F32E2504 /* CisternSettingsView.swift */; };
+		D152CCAB24072679BD96A817 /* BodyBowl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA28E44A22D934E201BAAB53 /* BodyBowl.swift */; };
+		D6C99A5BD12D28E97B2293C9 /* WeirStorePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7956A54DE0CCF0A3229E3 /* WeirStorePreview.swift */; };
+		F02751108BB085CBCCDEB6C1 /* Pour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888B9EB043E0D18E61E9900 /* Pour.swift */; };
+		F57955FAE42CE64F8E2718AF /* CisternFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECF5CB44C5D92A98024034 /* CisternFormat.swift */; };
+		FBD8A2C02341D7D3B6C9C49B /* CisternChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA8539E94B9CD7039425C9 /* CisternChrome.swift */; };
+		FCB2F5504B81E0543F0375B1 /* CrestHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E261B7794C8B5535B688AA3 /* CrestHistoryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C126ED26F2BC0718930D1350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5953B4925EFF4B7B8F4F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F45004FFA9C9B21672C10DC;
+			remoteInfo = Castellum;
+		};
+		DB5CC930E0A391E71F3AA192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5953B4925EFF4B7B8F4F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F45004FFA9C9B21672C10DC;
+			remoteInfo = Castellum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D562673B7A16CE65122CD0 /* WeirHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirHouseTests.swift; sourceTree = "<group>"; };
+		0B5C3F236BB62B6814EA6EDA /* DayMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMark.swift; sourceTree = "<group>"; };
+		0B9346AE85193E2654DC5375 /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		0F36A4D5DDCCFCBBEADF0CB7 /* WeirLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirLedger.swift; sourceTree = "<group>"; };
+		19E1B54C338D3E90F52FC758 /* ReviewHook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHook.swift; sourceTree = "<group>"; };
+		1C7D58165B038A1179642529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E5341EA9C1EF3240DB7B3A5 /* ScreenShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotTests.swift; sourceTree = "<group>"; };
+		23F7ED50D4608CF01CDE0BFB /* DayMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMarkTests.swift; sourceTree = "<group>"; };
+		2695767D623722B40B71B3DA /* CisternCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CisternCalendar.swift; sourceTree = "<group>"; };
+		2FECF5CB44C5D92A98024034 /* CisternFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CisternFormat.swift; sourceTree = "<group>"; };
+		308206A20F99D997C76EB14D /* CastellumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastellumTests.swift; sourceTree = "<group>"; };
+		3888B9EB043E0D18E61E9900 /* Pour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pour.swift; sourceTree = "<group>"; };
+		3E261B7794C8B5535B688AA3 /* CrestHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrestHistoryView.swift; sourceTree = "<group>"; };
+		44F8544C0A8559E82007DCB5 /* CisternInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CisternInk.swift; sourceTree = "<group>"; };
+		48C9E9335845BBD9E31DD907 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		48E3D41D939B9BF63637CEC9 /* WeirStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirStoreTests.swift; sourceTree = "<group>"; };
+		4B29A18D985A31EE1E72D4D2 /* CastellumShotTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CastellumShotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505B80AD2F3820B71930F8F6 /* ScreenCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCatalog.swift; sourceTree = "<group>"; };
+		5F8124007B882FA287025D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		603F71EA85341424A29DA2AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		624A50E4C562546A13C037E7 /* ActivityBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBand.swift; sourceTree = "<group>"; };
+		67B7CF909504F55197B3B966 /* WeirFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirFoldTests.swift; sourceTree = "<group>"; };
+		6B02BDE3E6A06056B7794799 /* ReviewHookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHookTests.swift; sourceTree = "<group>"; };
+		6B532830AED9D628F32E2504 /* CisternSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CisternSettingsView.swift; sourceTree = "<group>"; };
+		6E9AA1061447A6ABA3460E80 /* CastellumTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CastellumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A7956A54DE0CCF0A3229E3 /* WeirStorePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirStorePreview.swift; sourceTree = "<group>"; };
+		7600421EC44756792B6EE949 /* WeirFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirFold.swift; sourceTree = "<group>"; };
+		8228EB55BEC3383AFBDF0543 /* WeirSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirSeed.swift; sourceTree = "<group>"; };
+		8B5920D1AA8340BCCE471708 /* WellDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellDialView.swift; sourceTree = "<group>"; };
+		9755AEB9E3BC0676DC4A55AC /* WeirHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirHouseView.swift; sourceTree = "<group>"; };
+		A8DEBF560BD42F3D9871F502 /* WeirHopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirHopTests.swift; sourceTree = "<group>"; };
+		AA28E44A22D934E201BAAB53 /* BodyBowl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyBowl.swift; sourceTree = "<group>"; };
+		B4691B3A2A840528E3D1B3AD /* SweatSumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweatSumpView.swift; sourceTree = "<group>"; };
+		C089D5E299983F568F46CC97 /* Castellum.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Castellum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F579ECEA9A37C702BC24FB /* CisternOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CisternOnboardingView.swift; sourceTree = "<group>"; };
+		C62FA246DB75F4F2FD062C16 /* WeirCistern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirCistern.swift; sourceTree = "<group>"; };
+		CAFA8539E94B9CD7039425C9 /* CisternChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CisternChrome.swift; sourceTree = "<group>"; };
+		CD2837FE73FF4102760EEEA5 /* WeirHop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirHop.swift; sourceTree = "<group>"; };
+		DB19E6B24462DA436E9C30C8 /* CrestRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrestRun.swift; sourceTree = "<group>"; };
+		DFB7616989E56E0E10F286CF /* CastellumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastellumApp.swift; sourceTree = "<group>"; };
+		E09DC6AF7EF87DD1DA304507 /* WeirCisternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirCisternTests.swift; sourceTree = "<group>"; };
+		E3EC29462E9A3B04AAC1A485 /* VesselWell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselWell.swift; sourceTree = "<group>"; };
+		E9B641D805455BA29BEEAE5D /* WeirStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeirStore.swift; sourceTree = "<group>"; };
+		F751372C0C90FBA46DAD6CE0 /* SumpChamber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumpChamber.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD56C6BF5FF2ACC88F95A482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9AB6996EC875DC4BDD6986 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019332138497CC3FEC680D61 /* Castellum */ = {
+			isa = PBXGroup;
+			children = (
+				48C9E9335845BBD9E31DD907 /* APIConfig.swift */,
+				5F8124007B882FA287025D55 /* AppDelegate.swift */,
+				1C7D58165B038A1179642529 /* Assets.xcassets */,
+				DFB7616989E56E0E10F286CF /* CastellumApp.swift */,
+				603F71EA85341424A29DA2AF /* ContentView.swift */,
+				60FBCD53B700E8D54A6D7FD5 /* Bowl */,
+				02A4218837D273CFC6FA98DC /* DayMark */,
+				04AB3339D3559AD11112AECE /* Pour */,
+				4CAC4C786A90F99C6CD8FACA /* Sump */,
+				70C34D529458EFC4C67AAD98 /* Weir */,
+			);
+			path = Castellum;
+			sourceTree = "<group>";
+		};
+		02A4218837D273CFC6FA98DC /* DayMark */ = {
+			isa = PBXGroup;
+			children = (
+				624A50E4C562546A13C037E7 /* ActivityBand.swift */,
+				0B9346AE85193E2654DC5375 /* DayKey.swift */,
+				0B5C3F236BB62B6814EA6EDA /* DayMark.swift */,
+			);
+			path = DayMark;
+			sourceTree = "<group>";
+		};
+		04AB3339D3559AD11112AECE /* Pour */ = {
+			isa = PBXGroup;
+			children = (
+				3888B9EB043E0D18E61E9900 /* Pour.swift */,
+			);
+			path = Pour;
+			sourceTree = "<group>";
+		};
+		41E3A1980D4ACF4DDB4B388C /* CastellumShotTests */ = {
+			isa = PBXGroup;
+			children = (
+				505B80AD2F3820B71930F8F6 /* ScreenCatalog.swift */,
+				1E5341EA9C1EF3240DB7B3A5 /* ScreenShotTests.swift */,
+			);
+			path = CastellumShotTests;
+			sourceTree = "<group>";
+		};
+		462A8618C2FD72957A105BC3 = {
+			isa = PBXGroup;
+			children = (
+				019332138497CC3FEC680D61 /* Castellum */,
+				41E3A1980D4ACF4DDB4B388C /* CastellumShotTests */,
+				E116B20E5873A6E2AEED778C /* CastellumTests */,
+				ACF0DBD0A070B988F7F83866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAC4C786A90F99C6CD8FACA /* Sump */ = {
+			isa = PBXGroup;
+			children = (
+				F751372C0C90FBA46DAD6CE0 /* SumpChamber.swift */,
+				E3EC29462E9A3B04AAC1A485 /* VesselWell.swift */,
+			);
+			path = Sump;
+			sourceTree = "<group>";
+		};
+		60FBCD53B700E8D54A6D7FD5 /* Bowl */ = {
+			isa = PBXGroup;
+			children = (
+				AA28E44A22D934E201BAAB53 /* BodyBowl.swift */,
+			);
+			path = Bowl;
+			sourceTree = "<group>";
+		};
+		70C34D529458EFC4C67AAD98 /* Weir */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA8539E94B9CD7039425C9 /* CisternChrome.swift */,
+				2FECF5CB44C5D92A98024034 /* CisternFormat.swift */,
+				44F8544C0A8559E82007DCB5 /* CisternInk.swift */,
+				C2F579ECEA9A37C702BC24FB /* CisternOnboardingView.swift */,
+				6B532830AED9D628F32E2504 /* CisternSettingsView.swift */,
+				3E261B7794C8B5535B688AA3 /* CrestHistoryView.swift */,
+				DB19E6B24462DA436E9C30C8 /* CrestRun.swift */,
+				19E1B54C338D3E90F52FC758 /* ReviewHook.swift */,
+				B4691B3A2A840528E3D1B3AD /* SweatSumpView.swift */,
+				C62FA246DB75F4F2FD062C16 /* WeirCistern.swift */,
+				7600421EC44756792B6EE949 /* WeirFold.swift */,
+				CD2837FE73FF4102760EEEA5 /* WeirHop.swift */,
+				9755AEB9E3BC0676DC4A55AC /* WeirHouseView.swift */,
+				0F36A4D5DDCCFCBBEADF0CB7 /* WeirLedger.swift */,
+				8228EB55BEC3383AFBDF0543 /* WeirSeed.swift */,
+				E9B641D805455BA29BEEAE5D /* WeirStore.swift */,
+				70A7956A54DE0CCF0A3229E3 /* WeirStorePreview.swift */,
+				8B5920D1AA8340BCCE471708 /* WellDialView.swift */,
+			);
+			path = Weir;
+			sourceTree = "<group>";
+		};
+		ACF0DBD0A070B988F7F83866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C089D5E299983F568F46CC97 /* Castellum.app */,
+				4B29A18D985A31EE1E72D4D2 /* CastellumShotTests.xctest */,
+				6E9AA1061447A6ABA3460E80 /* CastellumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E116B20E5873A6E2AEED778C /* CastellumTests */ = {
+			isa = PBXGroup;
+			children = (
+				308206A20F99D997C76EB14D /* CastellumTests.swift */,
+				2695767D623722B40B71B3DA /* CisternCalendar.swift */,
+				23F7ED50D4608CF01CDE0BFB /* DayMarkTests.swift */,
+				6B02BDE3E6A06056B7794799 /* ReviewHookTests.swift */,
+				E09DC6AF7EF87DD1DA304507 /* WeirCisternTests.swift */,
+				67B7CF909504F55197B3B966 /* WeirFoldTests.swift */,
+				A8DEBF560BD42F3D9871F502 /* WeirHopTests.swift */,
+				03D562673B7A16CE65122CD0 /* WeirHouseTests.swift */,
+				48E3D41D939B9BF63637CEC9 /* WeirStoreTests.swift */,
+			);
+			path = CastellumTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F45004FFA9C9B21672C10DC /* Castellum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5BD65D18010AF9FB9D1D3A /* Build configuration list for PBXNativeTarget "Castellum" */;
+			buildPhases = (
+				EED045A0A563D008A1993335 /* Sources */,
+				2622363776D4E47505BBD662 /* Resources */,
+				BD56C6BF5FF2ACC88F95A482 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castellum;
+			packageProductDependencies = (
+				4AB605288BF5ECA6271A5895 /* Alamofire */,
+			);
+			productName = Castellum;
+			productReference = C089D5E299983F568F46CC97 /* Castellum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7A9912396930C4A439E6D1 /* CastellumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3B6892621F848DA50C94F9 /* Build configuration list for PBXNativeTarget "CastellumTests" */;
+			buildPhases = (
+				7DE996D719C805561B0C8A8C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDF9267085927F238D0B20E /* PBXTargetDependency */,
+			);
+			name = CastellumTests;
+			packageProductDependencies = (
+			);
+			productName = CastellumTests;
+			productReference = 6E9AA1061447A6ABA3460E80 /* CastellumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9E60EC29D0C9C0C4308B0BC /* CastellumShotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23D7B53038C4A1BC7585667 /* Build configuration list for PBXNativeTarget "CastellumShotTests" */;
+			buildPhases = (
+				78101AA74DA5827A16011967 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F8F288FC4122DD0DB6A9A7 /* PBXTargetDependency */,
+			);
+			name = CastellumShotTests;
+			packageProductDependencies = (
+			);
+			productName = CastellumShotTests;
+			productReference = 4B29A18D985A31EE1E72D4D2 /* CastellumShotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F5953B4925EFF4B7B8F4F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0F45004FFA9C9B21672C10DC = {
+						ProvisioningStyle = Automatic;
+					};
+					CF7A9912396930C4A439E6D1 = {
+						ProvisioningStyle = Automatic;
+					};
+					E9E60EC29D0C9C0C4308B0BC = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5889975FF1EE98B9B54433BF /* Build configuration list for PBXProject "Castellum" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 462A8618C2FD72957A105BC3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EFAF38EABE80318A089C8912 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACF0DBD0A070B988F7F83866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F45004FFA9C9B21672C10DC /* Castellum */,
+				CF7A9912396930C4A439E6D1 /* CastellumTests */,
+				E9E60EC29D0C9C0C4308B0BC /* CastellumShotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2622363776D4E47505BBD662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C21A1EA390ED83C18613FE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78101AA74DA5827A16011967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208275D85D2249839242AB88 /* ScreenCatalog.swift in Sources */,
+				3E74F1AC016C4E4324950A25 /* ScreenShotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE996D719C805561B0C8A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504340EF8161E16074A80F4A /* CastellumTests.swift in Sources */,
+				78A1A4C58BFA29271FB5A69E /* CisternCalendar.swift in Sources */,
+				25DA96A0E5C81D0423C41E4A /* DayMarkTests.swift in Sources */,
+				1B48EF2C3056C87F0600C0B7 /* ReviewHookTests.swift in Sources */,
+				980D91832F6F2C1CB7B993BB /* WeirCisternTests.swift in Sources */,
+				0980036EA225F27DD7D5BA2F /* WeirFoldTests.swift in Sources */,
+				A25C50B0A38DF9E72A26B329 /* WeirHopTests.swift in Sources */,
+				72D2DAF420E1768DD9FCFFAC /* WeirHouseTests.swift in Sources */,
+				B7B8952D1957997FEF451C35 /* WeirStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED045A0A563D008A1993335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045434E40D83EB35060D4FF5 /* APIConfig.swift in Sources */,
+				11C627A026B9383796062DF3 /* ActivityBand.swift in Sources */,
+				50450945AF9E80209A2463A5 /* AppDelegate.swift in Sources */,
+				D152CCAB24072679BD96A817 /* BodyBowl.swift in Sources */,
+				82DD71DF4FBA8C5BD86B68B6 /* CastellumApp.swift in Sources */,
+				FBD8A2C02341D7D3B6C9C49B /* CisternChrome.swift in Sources */,
+				F57955FAE42CE64F8E2718AF /* CisternFormat.swift in Sources */,
+				9C23349C65DF622583EAA77E /* CisternInk.swift in Sources */,
+				2D8634F668E9EB6F5030B886 /* CisternOnboardingView.swift in Sources */,
+				D0EC3F5459E40DF423498E5D /* CisternSettingsView.swift in Sources */,
+				90D3D17C30C9913D3049335D /* ContentView.swift in Sources */,
+				FCB2F5504B81E0543F0375B1 /* CrestHistoryView.swift in Sources */,
+				61F3BE06AAEC0829D3DD61AD /* CrestRun.swift in Sources */,
+				452A9BA3509969BC3E1488F5 /* DayKey.swift in Sources */,
+				AB448C4FFE0D1558714F04CE /* DayMark.swift in Sources */,
+				F02751108BB085CBCCDEB6C1 /* Pour.swift in Sources */,
+				4D398536E24766ACDA16CFF3 /* ReviewHook.swift in Sources */,
+				9336AF0D6831F44BE7C80583 /* SumpChamber.swift in Sources */,
+				CC225D3F2DD2606811CC7A93 /* SweatSumpView.swift in Sources */,
+				C3AA1198700A89D507F4A468 /* VesselWell.swift in Sources */,
+				15F9E9065A53AF0324CC30F4 /* WeirCistern.swift in Sources */,
+				0B6796F7E04A78E94A121829 /* WeirFold.swift in Sources */,
+				CC6673D5F29F5538FA1DB389 /* WeirHop.swift in Sources */,
+				9F53B6177FF2BEAE9CE54F6F /* WeirHouseView.swift in Sources */,
+				66556A50C17A917AF370B0DD /* WeirLedger.swift in Sources */,
+				9A5E29A021B9CE41703EF568 /* WeirSeed.swift in Sources */,
+				B4690F8355B87B54620C92A5 /* WeirStore.swift in Sources */,
+				D6C99A5BD12D28E97B2293C9 /* WeirStorePreview.swift in Sources */,
+				487515493495648AC3493E97 /* WellDialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F8F288FC4122DD0DB6A9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F45004FFA9C9B21672C10DC /* Castellum */;
+			targetProxy = C126ED26F2BC0718930D1350 /* PBXContainerItemProxy */;
+		};
+		FCDF9267085927F238D0B20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F45004FFA9C9B21672C10DC /* Castellum */;
+			targetProxy = DB5CC930E0A391E71F3AA192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4159550600611CB4FD7F3B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castellum.weir.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castellum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castellum";
+			};
+			name = Debug;
+		};
+		416785D3EF564BA850B761D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castellum.weir.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castellum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castellum";
+			};
+			name = Release;
+		};
+		491DF2CF51007AB924CB18FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Castellum;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castellum.weir;
+				PRODUCT_NAME = Castellum;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DA6C9FDE7177F0272F625B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castellum.weir.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castellum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castellum";
+			};
+			name = Release;
+		};
+		549C2110DE699FAF6A7F4CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Castellum;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castellum.weir;
+				PRODUCT_NAME = Castellum;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E1E4C4999068BE39D444A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		80A9B6006CC124023B68E101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castellum.weir.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castellum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castellum";
+			};
+			name = Debug;
+		};
+		9409A26FE94FBB685BFFEA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3B6892621F848DA50C94F9 /* Build configuration list for PBXNativeTarget "CastellumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A9B6006CC124023B68E101 /* Debug */,
+				416785D3EF564BA850B761D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5889975FF1EE98B9B54433BF /* Build configuration list for PBXProject "Castellum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1E4C4999068BE39D444A27 /* Debug */,
+				9409A26FE94FBB685BFFEA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5B5BD65D18010AF9FB9D1D3A /* Build configuration list for PBXNativeTarget "Castellum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549C2110DE699FAF6A7F4CD3 /* Debug */,
+				491DF2CF51007AB924CB18FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D23D7B53038C4A1BC7585667 /* Build configuration list for PBXNativeTarget "CastellumShotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4159550600611CB4FD7F3B86 /* Debug */,
+				4DA6C9FDE7177F0272F625B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFAF38EABE80318A089C8912 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AB605288BF5ECA6271A5895 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFAF38EABE80318A089C8912 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2F5953B4925EFF4B7B8F4F8C /* Project object */;
+}

@@ -1,0 +1,98 @@
+name: Castellum
+packages:
+  Alamofire:
+    url: https://github.com/wrandecima-bit/Alamofire
+    revision: 7fdd403089757be2ce6991b287c7bef612c8bd04
+options:
+  bundleIdPrefix: com.castellum
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.2"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Castellum:
+    type: application
+    platform: iOS
+    sources:
+      - path: Castellum
+    resources:
+      - path: PrivacyInfo.xcprivacy
+    dependencies:
+      - package: Alamofire
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.castellum.weir
+        PRODUCT_NAME: Castellum
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_CFBundleDisplayName: Castellum
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        INFOPLIST_KEY_NSCameraUsageDescription: This app does not use the camera.
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.healthcare-fitness
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Automatic
+  CastellumTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CastellumTests
+    dependencies:
+      - target: Castellum
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.castellum.weir.tests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "6.2"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Castellum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castellum"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        CODE_SIGN_STYLE: Automatic
+  CastellumShotTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CastellumShotTests
+    dependencies:
+      - target: Castellum
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.castellum.weir.tests.shots
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "6.2"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Castellum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castellum"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  Castellum:
+    build:
+      targets:
+        Castellum: all
+        CastellumTests: [test]
+    test:
+      targets:
+        - CastellumTests
+  CastellumShots:
+    build:
+      targets:
+        Castellum: all
+        CastellumShotTests: [test]
+    test:
+      targets:
+        - CastellumShotTests

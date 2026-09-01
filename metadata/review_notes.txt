@@ -1,0 +1,13 @@
+The Info.plist sets NSCameraUsageDescription to the exact string "This app does not use the camera." The native well never accesses the camera, so that prompt is not shown. No other permission usage-description keys are present.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Castellum is a personal hydration well. It is for people who add a workout and then drink later as if the extra never existed. Weight and an activity band write the day's mark. A pour fills the sweat sump first, and only overflow crests the weir into the body bowl.
+
+No credentials or demo account are needed. From a cold launch with no saved web URL, wait for the native well. The launch wait is at most five seconds. If onboarding appears, tap Next through The cistern house, Crest the weir, and Crest-runs stay. On Your day mark enter a positive weight in kilograms, pick Still, Active, or Intense, then tap Open the well. Skip writes a 70 kg Still mark. On Well, tap the vessels or Pour 250 ml. Tap Sweat sump to open Sweat-sump weir, then Close. Use the rail or swipe to Crests for Days the weir overflowed. Use the rail or swipe to Mark to Write today's mark, open Contact Castellum, Re-run onboarding, or Reset all data after confirming Empty the cistern and every crest day.
+
+On launch the app POSTs JSON with bundle com.castellum.weir and an empty push_token to https://castellum-weir.pro/api/v1/users/register. A non-empty app_data URL from that response is stored and loaded in a WKWebView. Contact Castellum opens https://castellum-weir.pro/contact-us in Safari. The mark, pours, crest-runs, and onboarding flag stay on the device in UserDefaults and in Application Support/Castellum/weir.json. They are not synced to a cloud account.
+
+Behaviour does not differ by region. Millilitres, kilograms, and dates use the device locale. Day boundaries use Calendar.current.
+
+No licence or regulated-industry paperwork applies. This is a personal water log, not a medical device and not medical advice.
