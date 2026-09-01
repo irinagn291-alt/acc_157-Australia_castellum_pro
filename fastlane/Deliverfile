@@ -40,3 +40,6 @@ precheck_include_in_app_purchases false
 
 _patch = File.expand_path("patch_deliver_screenshots.rb", __dir__)
 require _patch if File.file?(_patch)
+
+_medical = File.expand_path("declare_medical_device.rb", __dir__)
+require _medical if File.file?(_medical)
